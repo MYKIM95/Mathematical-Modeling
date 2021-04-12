@@ -3,7 +3,7 @@ Mathematical Modeling and Data Analysis Project about Chicken Pox
 
 # Project Description
 In history, there are lots of diseases which threaten human’s life, for example, Black death, SARS, MERS and
-COVID-19. Numerous people are dead from those serious epidemics, however, people always find out how to overcome those diseases by medicine, vaccine and passive immunity. From this, we are curious about how passive immunity can affect the pandemic period. This report will make an MSIR model with mathematical modeling assumption
+COVID-19. Numerous people are dead from those serious epidemics, however, people always find out how to overcome those diseases by medicine, vaccine and passive immunity. From this, we are curious about how passive immunity can affect the pandemic period. This report will make an MSIR model with mathematical modeling assumption
 on the epidemic. The Varicella data set provided by Minnesota will be used to analyze how the passive immunity
 affects our model. We will set the various situations for the MSIR model, and investigate how those changes affect the
 result.
@@ -36,7 +36,7 @@ In the MSIR model, we are looking for the change or impact of four groups of pop
 start, we have four groups which are M, S, I and R. M is passively immune class, S is susceptible class, I is infectious
 class and R is recovery class. All populations have to flow from M to R as like the figure below. Unlike original SIR
 model, there will be births and deaths added to the compartments.
-• The Passive immune compartment consists of those individuals who have never been infectious and have immunity of the disease. This will skip the infectious class and move on to recovery group. The passive immune
+• The Passive immune compartment consists of those individuals who have never been infectious and have immunity of the disease. This will skip the infectious class and move on to recovery group. The passive immune
 class population size at time t is denoted by M(t) with M(t) ≥ 0.
 • The susceptible compartment consists of those individuals who have never been infectious but capable of getting
 the disease and become infectious. This group would move into the infectious group if infected. The susceptible
