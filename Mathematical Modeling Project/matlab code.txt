@@ -1,0 +1,18 @@
+function dx = sirproject(t, x)
+  dx = [0; 0; 0];
+  beta = 0.5000e-06; 
+  gamma = 1/7;
+  dx(1) = -beta * x(1) * x(2);
+  dx(2) = (beta * x(1) * x(2)) - (gamma * x(2));
+  dx(3) = gamma * x(2);
+end
+
+
+[t,x] = ode45('sir', [0 80], [5499990 10 0])
+
+plot(t,x)
+
+
+[t,x] = ode45('sirproject', [0 80], [5499990 0 10 0])
+
+legend('M','S','I','R')
